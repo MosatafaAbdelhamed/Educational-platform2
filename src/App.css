@@ -1,0 +1,717 @@
+/* Profile Page Styles */
+.profile-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Login and Register Page Styles */
+.login-container, .register-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h1, .register-container h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.login-button, .register-button {
+  width: 100%;
+  padding: 0.875rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover, .register-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.redirect-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.redirect-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.redirect-link a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password-link {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.forgot-password-link a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password-link a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.forgot-password-container, .reset-password-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.forgot-password-container h1, .reset-password-container h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.success-message {
+  color: #28a745;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.875rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Exam List Styles */
+.exam-list-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.exam-list {
+  list-style: none;
+  padding: 0;
+}
+
+.exam-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exam-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.exam-link h3 {
+  margin: 0 0 0.5rem 0;
+  color: #007bff;
+}
+
+.exam-link p {
+  margin: 0;
+  color: #666;
+}
+
+/* Exam Details Styles */
+.exam-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.start-exam-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.start-exam-button:hover {
+  background-color: #218838;
+}
+
+.back-link {
+  display: block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Start Exam Styles */
+.start-exam-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.questions-container {
+  margin-top: 1rem;
+}
+
+.question-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.options-container {
+  margin-top: 0.5rem;
+}
+
+.option-item {
+  display: block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.option-item input {
+  margin-right: 0.5rem;
+}
+
+.submit-exam-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.submit-exam-button:hover {
+  background-color: #218838;
+}
+
+/* Submit Exam Styles */
+.submit-exam-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Exams List Styles */
+.exams-list-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.exams-list {
+  list-style: none;
+  padding: 0;
+}
+
+.exam-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exam-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.exam-link h3 {
+  margin: 0 0 0.5rem 0;
+  color: #007bff;
+}
+
+.exam-link p {
+  margin: 0;
+  color: #666;
+}
+
+.add-exam-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.add-exam-button:hover {
+  background-color: #218838;
+}
+
+/* Exam Details Styles */
+.exam-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.exam-details {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exam-actions {
+  margin-top: 1rem;
+}
+
+.edit-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Add and Edit Exam Styles */
+.add-exam-container, .edit-exam-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Admin List Styles */
+.admin-list-container, .user-list-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.admins-list, .users-list {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-item, .user-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-link, .user-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.admin-link h3, .user-link h3 {
+  margin: 0 0 0.5rem 0;
+  color: #007bff;
+}
+
+.admin-link p, .user-link p {
+  margin: 0;
+  color: #666;
+}
+
+.add-admin-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.add-admin-button:hover {
+  background-color: #218838;
+}
+
+/* Create Admin Styles */
+.create-admin-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+
+/* Lessons List Styles */
+.lessons-list-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.lessons-list {
+  list-style: none;
+  padding: 0;
+}
+
+.lesson-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.lesson-link h3 {
+  margin: 0 0 0.5rem 0;
+  color: #007bff;
+}
+
+.lesson-link p {
+  margin: 0;
+  color: #666;
+}
+
+.paid-badge {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+/* Lesson Details Styles */
+.lesson-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.pay-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.pay-button:hover {
+  background-color: #218838;
+}
+
+/* Add and Edit Lesson Styles */
+.add-lesson-container, .edit-lesson-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+}
+
+.submit-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Questions List Styles */
+.questions-list-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.questions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.question-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.question-link h3 {
+  margin: 0 0 0.5rem 0;
+  color: #007bff;
+}
+
+.question-link p {
+  margin: 0;
+  color: #666;
+}
+
+.add-question-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.add-question-button:hover {
+  background-color: #218838;
+}
+
+/* Question Details Styles */
+.question-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.question-details {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.options-container {
+  margin-top: 1rem;
+}
+
+.options-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.options-container li {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.question-actions {
+  margin-top: 1rem;
+}
+
+.edit-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add and Edit Question Styles */
+.add-question-container, .edit-question-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.option-input {
+  margin-bottom: 0.5rem;
+}
+
+/* Purchased Lessons Styles */
+.purchased-lessons-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.primary-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
